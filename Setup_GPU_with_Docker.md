@@ -1,12 +1,15 @@
 [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/issues/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=paired_comparison)
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=docker)
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=docker)
 > since 2019-11-04
 
 
-# Setup NVIDA GPU within Docker Containers
-This  
+# Setup NVIDA GPU within Docker Containers for Deep Learning
+
+## What is docker?
+
+
 ## Dependencies
 The codes are written in Matlab. Codes in [Experiment](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment) requires the [Psychtoolbox](http://psychtoolbox.org/credits/). Codes in [DataAnalysis](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/DataAnalysis) requires the [BayesBT packages](http://www.stats.ox.ac.uk/~caron/code/bayesbt/index.html).
 
