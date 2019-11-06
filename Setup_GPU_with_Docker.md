@@ -25,7 +25,7 @@
         $ docker version
     
         ```
-**2. Get the docker image**
+## 2. Get the docker image ##
    - To pull the bethgelab deep learning docker image from github
         ```bash
         $ docker pull bethgelab/deeplearning:cuda9.0-cudnn7
@@ -45,7 +45,7 @@
         $ docker rmi <Image ID>
     
         ```  
-**3. Run the downloaded image as a container**        
+## 3. Run the downloaded image as a container ##       
    - To run the downloaded image as a container (a container is the instance of a docker image)
         ```bash
         $ docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
@@ -79,7 +79,7 @@
         </div> 
 
 
-**4. Use the container** 
+## 4. Use the container ## 
    - To run the container in the interactive mode
         ```bash
         $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag>
