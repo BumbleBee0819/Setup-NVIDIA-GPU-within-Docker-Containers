@@ -115,7 +115,23 @@
         $ pip3 install opencv-python
         $ pip3 install keras==2.2.0
         ```   
- 
+   - 4. Exit the current container
+        ```bash
+        $ exit
+    
+        ``` 
+        
+   - 5. Commit the changes to the docker image
+        ```bash
+        $ docker commit <container-id> <image repository>:<image tag>
+    
+        ```  
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/commit.png"  display= block width=70%></p>
+        </div>    
+   
+   
+   
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
    
