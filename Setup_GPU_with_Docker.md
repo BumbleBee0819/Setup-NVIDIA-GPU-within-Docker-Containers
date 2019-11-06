@@ -31,7 +31,7 @@
         $ docker pull bethgelab/deeplearning:cuda9.0-cudnn7
     
         ```
-   - 2. [Optional]To list all existing docker images
+   - 2. [Optional] To list all existing docker images
         ```bash
         $ docker images
     
@@ -40,7 +40,7 @@
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/docker.png"  display= block width=50%></p>
         </div>
         
-   - 3. [Optional]To remove an existing docker image
+   - 3. [Optional] To remove an existing docker image
         ```bash
         $ docker rmi <Image ID>
     
@@ -80,7 +80,7 @@
 
 
 ## 4. Use the container ## 
-   - To run the container in the interactive mode
+   - 1. To run the container in the interactive mode
         ```bash
         $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag>
     
@@ -89,7 +89,7 @@
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/interactive.png"  display= block width=70%></p>
         </div>  
         
-   - If the default python is python2, change it to python3. 
+   - 2. [Optional] If the default python is python2, change it to python3. 
         -  Check the directory of python3
         ```bash
         $ which python3
@@ -99,17 +99,17 @@
         ```bash
         $ vim ~/.bashrc
         ```   
-        append the following commands to the end of the .bashrc file; save and exit
-        ```bash
-        $ alias python='/usr/bin/python3'
-        ``` 
-        reload the bash_profile
-        ```bash
-        $ source ~/.bashrc
-        ``` 
-        type "python -V" in the terminal, it should now display python3
+            append the following commands to the end of the .bashrc file; save and exit
+            ```bash
+            $ alias python='/usr/bin/python3'
+            ``` 
+            reload the bash_profile
+            ```bash
+            $ source ~/.bashrc
+            ``` 
+            type "python -V" in the terminal, it should now display python3
         
-   - Install the opencv and keras
+   - 3. [Optional] Install the opencv and keras
         ```bash
         $ pip3 install opencv-python
         $ pip3 install keras==2.2.0
