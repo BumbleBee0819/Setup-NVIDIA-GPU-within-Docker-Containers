@@ -60,6 +60,15 @@
         $ exit
     
         ```    
+   - List all the docker containers and find your container ID (must exit the container first)
+        ```bash
+        $ docker ps -a
+    
+        ```   
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/list%20container.png"  display= block width=50%></p>
+        </div>    
+   
    
    
 ## Contact
