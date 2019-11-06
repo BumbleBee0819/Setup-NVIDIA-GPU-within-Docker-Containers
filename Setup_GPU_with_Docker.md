@@ -13,7 +13,7 @@
 
  
 1. To install Docker:
-* [Mac](https://docs.docker.com/docker-for-mac/install/)
+⋅⋅* [Mac](https://docs.docker.com/docker-for-mac/install/)
 
 
 (https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment) requires the [Psychtoolbox](http://psychtoolbox.org/credits/). Codes in [DataAnalysis](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/DataAnalysis) requires the [BayesBT packages](http://www.stats.ox.ac.uk/~caron/code/bayesbt/index.html).
