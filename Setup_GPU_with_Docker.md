@@ -13,7 +13,6 @@
 
 
 **1. Installition**
-
     * [Mac](https://docs.docker.com/docker-for-mac/install/)
     * [Windows](https://docs.docker.com/docker-for-windows/install/)
     * [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
