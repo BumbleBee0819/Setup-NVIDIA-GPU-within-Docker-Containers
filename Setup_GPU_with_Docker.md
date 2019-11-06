@@ -67,10 +67,22 @@
         ```   
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/list%20container.png"  display= block width=70%></p>
-        </div>    
-   
-   
-   
+        </div>  
+        
+   - Save the container's file changes/settings into a new docker image.  
+        ```bash
+        $ docker commit <Container ID> <new image name>
+    
+        ``` 
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/save%20docker.png"  display= block width=70%></p>
+        </div> 
+ 
+ 
+ 
+ 
+ 
+ 
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
    
