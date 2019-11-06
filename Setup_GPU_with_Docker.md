@@ -12,7 +12,7 @@
 </div>
 
 
-##1. Install docker##
+## 1. Install docker ##
    - For different operating system
     : [Mac](https://docs.docker.com/docker-for-mac/install/)
     | [Windows](https://docs.docker.com/docker-for-windows/install/)
