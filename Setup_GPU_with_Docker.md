@@ -14,13 +14,13 @@
 
 **1. Installation**
    - For different operating system
-    - [Mac](https://docs.docker.com/docker-for-mac/install/)
-    - [Windows](https://docs.docker.com/docker-for-windows/install/)
-    - [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-    - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
-    - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
+    : [Mac](https://docs.docker.com/docker-for-mac/install/)
+    | [Windows](https://docs.docker.com/docker-for-windows/install/)
+    | [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+    | [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
+    | [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
 
-   - Check whether docker has been successfully installed
+   - Check whether the docker has been successfully installed
         ```bash
         $ docker version
     
