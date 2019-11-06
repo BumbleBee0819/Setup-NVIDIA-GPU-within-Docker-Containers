@@ -31,7 +31,7 @@
         $ docker pull bethgelab/deeplearning:cuda9.0-cudnn7
     
         ```
-   - To list all existing docker images
+   - [Optional]To list all existing docker images
         ```bash
         $ docker images
     
@@ -40,7 +40,7 @@
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/docker.png"  display= block width=50%></p>
         </div>
         
-   - To remove an existing docker image
+   - [Optional]To remove an existing docker image
         ```bash
         $ docker rmi <Image ID>
     
@@ -54,7 +54,12 @@
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/run%20container.png"  display= block width=50%></p>
         </div>   
-   
+        
+   - Exit the current container
+        ```bash
+        $ exit
+    
+        ```    
    
    
 ## Contact
