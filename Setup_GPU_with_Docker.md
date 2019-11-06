@@ -88,7 +88,9 @@
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/interactive.png"  display= block width=70%></p>
         </div>  
- 
+        
+   - If the default python is python2, change it to python3. 
+        -  aa
  
  
 ## Contact
