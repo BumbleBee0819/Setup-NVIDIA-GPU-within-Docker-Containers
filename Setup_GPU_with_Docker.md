@@ -69,7 +69,7 @@
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/list%20container.png"  display= block width=70%></p>
         </div>  
         
-   - Save the container's file changes/settings into a new docker image. Next time you can open the image with the [new image name].  
+   - 4. Save the container's file changes/settings into a new docker image. Next time you can open the image with the [new image name].  
         ```bash
         $ docker commit <Container ID> <new image name>:<new image tag>
     
@@ -90,12 +90,12 @@
         </div>  
         
    - 2. [Optional] If the default python is python2, change it to python3. 
-        -  Check the directory of python3
+        - 1. Check the directory of python3
         ```bash
         $ which python3
         /usr/bin/python3
         ```  
-        -  Change the default python version
+        - 2. Change the default python version
         1) open the .bashrc file
         ```bash
         $ vim ~/.bashrc
