@@ -27,7 +27,7 @@ If you use the codes, please cite the following papers.
 
 <div class="image12">
     <p align="center">Experimental Interface</strong></p>
-    <img src="https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/Parameter%20Explanation/Experiment%20Interface.png" style="float:left">
+    <img src="https://lh6.googleusercontent.com/OLNkuRtYmA-8DwJ1-gSM9HL4Uxu56ae3yX5deu9997DXNtNEFbaAnuwSTlKFbAlmwH8GqJohKNow8gpDbUj_LPqW1sfXBu7CLDFB2cL5jqCuuLiOc89AKdH2yiYkq-37EdnePetq" style="float:left">
 </div>
 
 
