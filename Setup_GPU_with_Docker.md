@@ -79,7 +79,7 @@
         </div> 
 
 
-## 4. Use the container ## 
+## 4. Create the container and make changes inside it ## 
    - 1. To run the container in the interactive mode
         ```bash
         $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag>
@@ -119,9 +119,8 @@
         ```bash
         $ exit
     
-        ``` 
-        
-   - 5. Commit the changes to the docker image
+        ```         
+   - 5. Commit the changes made in the container
         ```bash
         $ docker commit <container-id> <image repository>:<image tag>
     
@@ -130,7 +129,15 @@
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/commit.png"  display= block width=70%></p>
         </div>    
    
-   
+## 5. Reopen the existing container ##  
+   - 1. To run the existing container in the interactive mode
+        ```bash
+        $ docker exec -ti <container-ID> bash
+        ```    
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/reopen%20container.png"  display= block width=70%></p>
+        </div> 
+
    
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
