@@ -50,9 +50,10 @@
         ```bash
         $ docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
     
-        ```         
-<p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/run%20container.png"  display= block width=50%></p>
-   
+        ```   
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/run%20container.png"  display= block width=50%></p>
+        </div>   
    
    
    
