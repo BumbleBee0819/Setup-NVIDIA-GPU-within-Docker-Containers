@@ -37,8 +37,7 @@
     
         ``` 
         <div>
-            <p align="center"> Docker architecture </strong></p>
-            <p align="center"><img src="https://lh6.googleusercontent.com/OLNkuRtYmA-8DwJ1-gSM9HL4Uxu56ae3yX5deu9997DXNtNEFbaAnuwSTlKFbAlmwH8GqJohKNow8gpDbUj_LPqW1sfXBu7CLDFB2cL5jqCuuLiOc89AKdH2yiYkq-37EdnePetq"  display= block width=50%></p>
+            <p align="center"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/docker.png"  display= block width=50%></p>
         </div>
         
    - To remove an existing docker image
