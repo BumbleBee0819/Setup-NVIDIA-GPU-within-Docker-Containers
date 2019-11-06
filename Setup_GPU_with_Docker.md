@@ -90,12 +90,12 @@
         </div>  
         
    - 2. [Optional] If the default python is python2, change it to python3. 
-        - 1. Check the directory of python3
+        -  Check the directory of python3
         ```bash
         $ which python3
         /usr/bin/python3
         ```  
-        - 2. Change the default python version
+        -  Change the default python version
         1) open the .bashrc file
         ```bash
         $ vim ~/.bashrc
