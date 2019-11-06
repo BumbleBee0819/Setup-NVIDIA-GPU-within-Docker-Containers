@@ -13,14 +13,14 @@
 
 
 ## 1. Install docker ##
-   - 1) For different operating system
+   - 1. For different operating system
     : [Mac](https://docs.docker.com/docker-for-mac/install/)
     | [Windows](https://docs.docker.com/docker-for-windows/install/)
     | [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
     | [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
     | [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
 
-   - 2) Check whether the docker has been successfully installed
+   - 2. Check whether the docker has been successfully installed
         ```bash
         $ docker version
     
