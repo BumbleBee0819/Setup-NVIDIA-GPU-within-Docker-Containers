@@ -90,8 +90,24 @@
         </div>  
         
    - If the default python is python2, change it to python3. 
-        -  aaaaa
- 
+        -  Check the directory of python3
+        ```bash
+        $ which python3
+        /usr/bin/python3
+        ```  
+   - Change the default python version
+        ```bash
+        $ vim ~/.bashrc
+        ```   
+        append the following commands to the end of the .bashrc file; save and exit
+        ```bash
+        $ alias python='/usr/bin/python3'
+        ``` 
+        reload the bash_profile
+        ```bash
+        $ source ~/.bashrc
+        ``` 
+        type "python -V" in the terminal, it should display python3
  
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
