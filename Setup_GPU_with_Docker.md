@@ -45,8 +45,8 @@
         $ docker rmi <Image ID>
     
         ```  
-**2. Run the downloaded image as a container (a container is the instance of a docker image)**        
-        
+**3. Run the downloaded image as a container**        
+   - To run the downloaded image as a container (a container is the instance of a docker image)
         ```bash
         $ docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
     
