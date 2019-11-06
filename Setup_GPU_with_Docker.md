@@ -19,7 +19,7 @@
    - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
    - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
 
-   - Check whether docker has been successfully installed
+   Check whether docker has been successfully installed
     ```bash
     $ docker version
     
