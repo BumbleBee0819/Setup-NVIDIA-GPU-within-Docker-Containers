@@ -107,7 +107,13 @@
         ```bash
         $ source ~/.bashrc
         ``` 
-        type "python -V" in the terminal, it should display python3
+        type "python -V" in the terminal, it should now display python3
+        
+   - Install the opencv and keras
+        ```bash
+        $ pip3 install opencv-python
+        $ pip3 install keras==2.2.0
+        ```   
  
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
