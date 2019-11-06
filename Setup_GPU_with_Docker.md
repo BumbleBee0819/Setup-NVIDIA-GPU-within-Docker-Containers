@@ -95,7 +95,7 @@
         $ which python3
         /usr/bin/python3
         ```  
-   - Change the default python version
+        -  Change the default python version
         ```bash
         $ vim ~/.bashrc
         ```   
