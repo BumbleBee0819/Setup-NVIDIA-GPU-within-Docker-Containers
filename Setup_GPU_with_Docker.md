@@ -28,12 +28,12 @@
 **2. Get the docker image**
    - To pull the bethgelab deep learning docker image from github
         ```bash
-        $ nvidia-docker pull bethgelab/deeplearning:cuda9.0-cudnn7
+        $ docker pull bethgelab/deeplearning:cuda9.0-cudnn7
     
         ```
    - To list all existing docker images
         ```bash
-        $ nvidia-docker images
+        $ docker images
     
         ``` 
         <div>
@@ -45,7 +45,18 @@
         $ docker rmi <Image ID>
     
         ```  
+**2. Run the downloaded image as a container (a container is the instance of a docker image)**        
+        ```bash
+        $ docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
+    
+        ```
         
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/run%20container.png"  display= block width=50%></p>
+        </div>
+   
+   
+   
    
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
