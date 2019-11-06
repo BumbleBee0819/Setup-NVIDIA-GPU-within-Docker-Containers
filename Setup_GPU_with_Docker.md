@@ -21,9 +21,8 @@
 
     Check whether docker has been successfully installed
     ```
-    docker version
-    or 
-    docker info
+    $ docker version
+    
     ```
 
 ## References
