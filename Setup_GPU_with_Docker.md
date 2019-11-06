@@ -12,7 +12,7 @@
 </div>
 
 
-**1. Installation**
+**1. Install docker**
    - For different operating system
     : [Mac](https://docs.docker.com/docker-for-mac/install/)
     | [Windows](https://docs.docker.com/docker-for-windows/install/)
@@ -25,8 +25,23 @@
         $ docker version
     
         ```
-
-
+**2. Get the docker image**
+   - To pull the bethgelab deep learning docker image from github
+        ```bash
+        $ nvidia-docker pull bethgelab/deeplearning:cuda9.0-cudnn7
+    
+        ```
+   - To list all existing docker images
+        ```bash
+        $ nvidia-docker images
+    
+        ``` 
+   - To remove an existing docker image
+        ```bash
+        $ docker rmi <Image ID>
+    
+        ```  
+   
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
    
