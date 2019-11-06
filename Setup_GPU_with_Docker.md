@@ -26,7 +26,7 @@
     
         ```
 ## 2. Get the docker image ##
-   - To pull the bethgelab deep learning docker image from github
+   - 1. To pull the bethgelab deep learning docker image from github
         ```bash
         $ docker pull bethgelab/deeplearning:cuda9.0-cudnn7
     
@@ -46,7 +46,7 @@
     
         ```  
 ## 3. Run the downloaded image as a container ##       
-   - To run the downloaded image as a container (a container is the instance of a docker image)
+   - 1. To run the downloaded image as a container (a container is the instance of a docker image)
         ```bash
         $ docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
     
@@ -55,12 +55,12 @@
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/run%20container.png"  display= block width=50%></p>
         </div>   
         
-   - Exit the current container
+   - 2. Exit the current container
         ```bash
         $ exit
     
         ```    
-   - List all the docker containers and find your container ID (must exit the container first)
+   - 3. List all the docker containers and find your container ID (must exit the container first)
         ```bash
         $ docker ps -a
     
