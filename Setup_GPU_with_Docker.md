@@ -137,7 +137,10 @@
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/reopen%20container.png"  display= block width=70%></p>
         </div> 
-
+   - 2. If the above step arises error that the container has stopped, you have to restart the container first, then try the above step again.
+        ```bash
+        $ docker container restart <container-ID>
+        ```    
    
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
