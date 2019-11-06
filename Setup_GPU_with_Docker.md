@@ -96,18 +96,19 @@
         /usr/bin/python3
         ```  
         -  Change the default python version
+        1) open the .bashrc file
         ```bash
         $ vim ~/.bashrc
         ```   
-            append the following commands to the end of the .bashrc file; save and exit
-            ```bash
-            $ alias python='/usr/bin/python3'
-            ``` 
-            reload the bash_profile
-            ```bash
-            $ source ~/.bashrc
-            ``` 
-            type "python -V" in the terminal, it should now display python3
+        2) append the following commands to the end of the .bashrc file; save and exit
+        ```bash
+        $ alias python='/usr/bin/python3'
+        ``` 
+        3) reload the bash_profile
+        ```bash
+        $ source ~/.bashrc
+        ``` 
+        4) type "python -V" in the terminal, it should now display python3
         
    - 3. [Optional] Install the opencv and keras
         ```bash
