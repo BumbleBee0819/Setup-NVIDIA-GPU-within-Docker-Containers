@@ -14,8 +14,17 @@
 
 1. To install Docker
     * [Mac](https://docs.docker.com/docker-for-mac/install/)
+    * [Windows](https://docs.docker.com/docker-for-windows/install/)
+    * [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+    * [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
+    * [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
 
-(https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment) requires the [Psychtoolbox](http://psychtoolbox.org/credits/). Codes in [DataAnalysis](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/DataAnalysis) requires the [BayesBT packages](http://www.stats.ox.ac.uk/~caron/code/bayesbt/index.html).
+    Check whether docker has been successfully installed
+    ```
+    docker version
+    or 
+    docker info
+    ```
 
 ## References
 If you use the codes, please cite the following papers.
