@@ -71,11 +71,11 @@
         
    - Save the container's file changes/settings into a new docker image. Next time you can open the image with the [new image name].  
         ```bash
-        $ docker commit <Container ID> <new image name>
+        $ docker commit <Container ID> <new image name>:<new iamge tag>
     
         ``` 
         <div>
-            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/save%20docker.png"  display= block width=70%></p>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/save%20image.png"  display= block width=70%></p>
         </div> 
  
  
