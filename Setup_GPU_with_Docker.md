@@ -82,7 +82,7 @@
 ## 4. Create the container and make changes inside it ## 
    - 1. To run the container in the interactive mode
         ```bash
-        $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag>
+        $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag> bash
     
         ```   
         <div>
@@ -141,7 +141,24 @@
         ```bash
         $ docker container restart <container-ID>
         ```    
+## 6. Run the container in the detachable mode and submit jobs to it##   
+   - 1. To open the container in the detachable mode
+        ```bash
+        $ docker run -d -it -v <local_dir>:<container_dir> <image repository>:<image tag> bash
+
+        ```   
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/detachable%20container.png"  display= block width=70%></p>
+        </div> 
+   - 2. To reopen the existing container
+        ```bash
+        $ docker attach <container-id>
+
+        ```  
    
+   
+   
+
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
    
