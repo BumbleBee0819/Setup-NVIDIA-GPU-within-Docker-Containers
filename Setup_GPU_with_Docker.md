@@ -71,15 +71,23 @@
         
    - Save the container's file changes/settings into a new docker image. Next time you can open the image with the [new image name].  
         ```bash
-        $ docker commit <Container ID> <new image name>:<new iamge tag>
+        $ docker commit <Container ID> <new image name>:<new image tag>
     
         ``` 
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/save%20image.png"  display= block width=70%></p>
         </div> 
- 
- 
- 
+
+
+**4. Use the container** 
+   - To run the container in the interactive mode
+        ```bash
+        $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag>
+    
+        ```   
+        <div>
+            <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/interactive.png"  display= block width=70%></p>
+        </div>  
  
  
  
