@@ -22,18 +22,18 @@
 
    - 2. Check whether the docker has been successfully installed
         ```bash
-        $ docker version
+        $ nvidia-docker version
     
         ```
 ## 2. Get the docker image ##
    - 1. To pull the bethgelab deep learning docker image from github
         ```bash
-        $ docker pull bethgelab/deeplearning:cuda9.0-cudnn7
+        $ nvidia-docker pull bethgelab/deeplearning:cuda9.0-cudnn7
     
         ```
    - 2. [Optional] To list all existing docker images
         ```bash
-        $ docker images
+        $ nvidia-docker images
     
         ``` 
         <div>
@@ -42,13 +42,13 @@
         
    - 3. [Optional] To remove an existing docker image
         ```bash
-        $ docker rmi <Image ID>
+        $ nvidia-docker rmi <Image ID>
     
         ```  
 ## 3. Run the downloaded image as a container ##       
    - 1. To run the downloaded image as a container (a container is the instance of a docker image)
         ```bash
-        $ docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
+        $ nvidia-docker run  -it bethgelab/deeplearning:cuda9.0-cudnn7  bash
     
         ```   
         <div>
@@ -62,7 +62,7 @@
         ```    
    - 3. List all the docker containers and find your container ID (must exit the container first)
         ```bash
-        $ docker ps -a
+        $ nvidia-docker ps -a
     
         ```   
         <div>
@@ -71,7 +71,7 @@
         
    - 4. Save the container's file changes/settings into a new docker image. Next time you can open the image with the [new image name].  
         ```bash
-        $ docker commit <Container ID> <new image name>:<new image tag>
+        $ nvidia-docker commit <Container ID> <new image name>:<new image tag>
     
         ``` 
         <div>
@@ -82,7 +82,7 @@
 ## 4. Create the container and make changes inside it ## 
    - 1. To run the container in the interactive mode
         ```bash
-        $ docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag> bash
+        $ nvidia-docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag> bash
     
         ```   
         <div>
@@ -122,7 +122,7 @@
         ```         
    - 5. Commit the changes made in the container
         ```bash
-        $ docker commit <container-id> <image repository>:<image tag>
+        $ nvidia-docker commit <container-id> <image repository>:<image tag>
     
         ```  
         <div>
@@ -132,19 +132,19 @@
 ## 5. Reopen the existing container ##  
    - 1. To run the existing container in the interactive mode
         ```bash
-        $ docker exec -ti <container-ID> bash
+        $ nvidia-docker exec -ti <container-ID> bash
         ```    
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/reopen%20container.png"  display= block width=70%></p>
         </div> 
    - 2. If the above step arises error that the container has stopped, you have to restart the container first, then try the above step again.
         ```bash
-        $ docker container restart <container-ID>
+        $ nvidia-docker container restart <container-ID>
         ```    
 ## 6. Run the container in the detachable mode and submit jobs to it##   
    - 1. To open the container in the detached mode
         ```bash
-        $ docker run -dit -v <local_dir>:<container_dir> <image repository>:<image tag> bash
+        $ nvidia-docker run -dit -v <local_dir>:<container_dir> <image repository>:<image tag> bash
 
         ```   
         <div>
@@ -153,7 +153,7 @@
    - 2. To exit the container, press "Ctrl+p+q" (exit the container without terminating it)
    - 3. To reopen the existing container
         ```bash
-        $ docker attach <container-ID>
+        $ nvidia-docker attach <container-ID>
 
         ```  
    
