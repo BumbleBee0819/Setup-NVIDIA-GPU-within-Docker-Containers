@@ -150,9 +150,10 @@
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/detachable%20container.png"  display= block width=70%></p>
         </div> 
-   - 2. To reopen the existing container
+   - 2. To exit the container, press "Ctrl+p+q"
+   - 3. To reopen the existing container
         ```bash
-        $ docker attach <container-id>
+        $ docker attach <container-ID>
 
         ```  
    
