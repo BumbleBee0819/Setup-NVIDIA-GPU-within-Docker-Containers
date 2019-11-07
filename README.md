@@ -142,15 +142,15 @@
         $ docker container restart <container-ID>
         ```    
 ## 6. Run the container in the detachable mode and submit jobs to it##   
-   - 1. To open the container in the detachable mode
+   - 1. To open the container in the detached mode
         ```bash
-        $ docker run -d -it -v <local_dir>:<container_dir> <image repository>:<image tag> bash
+        $ docker run -dit -v <local_dir>:<container_dir> <image repository>:<image tag> bash
 
         ```   
         <div>
             <p align="left"><img src="https://github.com/BumbleBee0819/Setup-NVIDIA-GPU-within-Docker-Containers/blob/master/img/detachable%20container.png"  display= block width=70%></p>
         </div> 
-   - 2. To exit the container, press "Ctrl+p+q"
+   - 2. To exit the container, press "Ctrl+p+q" (exit the container without terminating it)
    - 3. To reopen the existing container
         ```bash
         $ docker attach <container-ID>
