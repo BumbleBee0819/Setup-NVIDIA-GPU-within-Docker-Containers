@@ -2,10 +2,11 @@
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=docker_gpu)
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=docker_gpu)
+> Author: Wenyan Bi
 > since 2019-11-04
 
 
-# Setup NVIDA GPU within Docker Containers for Deep Learning
+# Setup NVIDIA GPU within Docker Containers for Deep Learning
 <div>
     <p align="center"> Docker architecture </strong></p>
     <p align="center"><img src="https://lh6.googleusercontent.com/OLNkuRtYmA-8DwJ1-gSM9HL4Uxu56ae3yX5deu9997DXNtNEFbaAnuwSTlKFbAlmwH8GqJohKNow8gpDbUj_LPqW1sfXBu7CLDFB2cL5jqCuuLiOc89AKdH2yiYkq-37EdnePetq"  display= block width=50%></p>
