@@ -158,17 +158,17 @@
 
         ```  
  ### If you already have a running container ### 
-    - 1. Enter the container
+   - 1. Enter the container
         ```bash
         $ nvidia-docker attach <container-ID>
 
-        ```
-    - 2. Run the python script backend        
+        ```   
+   - 2. Run the python script backend        
         ```bash
         $ python test.py &
 
         ```   
-    - 3. Exit the container        
+   - 3. Exit the container        
          Ctrl+p+q
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
