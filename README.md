@@ -179,14 +179,14 @@
         ```
         
 ## 7. Common errors ##  
-   - 1. (Graphviz error) FileNotFoundError: [Errno 2] "dot" not found in path.
+   - 1). (Graphviz error) FileNotFoundError: [Errno 2] "dot" not found in path.
         ```bash
         $ sudo add-apt-repository universe
         $ sudo apt update
         $ sudo apt install graphviz
 
         ```  
-   - 2. If the GPU can't be recognized, double check that you run the docker with "nvidia-docker run" rather than "docker run".
+   - 2). If the GPU can't be recognized, double check that you run the docker with "nvidia-docker run" rather than "docker run".
    
    
 ## Contact
