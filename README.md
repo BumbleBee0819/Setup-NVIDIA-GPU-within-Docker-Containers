@@ -141,8 +141,9 @@
         ```bash
         $ nvidia-docker container restart <container-ID>
         ```    
-## 6. Run the container in the detachable mode and submit jobs to it##   
-   - 1. To open the container in the detached mode
+## 6. Run the container in the detachable mode and submit jobs to it## 
+### If you don't have a running container### 
+   - 1. To run the container in the detached mode
         ```bash
         $ nvidia-docker run -dit -v <local_dir>:<container_dir> <image repository>:<image tag> bash
 
