@@ -142,7 +142,7 @@
         $ nvidia-docker container restart <container-ID>
         ```    
 ## 6. Run the container in the detachable mode and submit jobs to it## 
-### If you don't have a running container### 
+### If you don't have a running container ### 
    - 1. To run the container in the detached mode
         ```bash
         $ nvidia-docker run -dit -v <local_dir>:<container_dir> <image repository>:<image tag> bash
@@ -157,6 +157,7 @@
         $ nvidia-docker attach <container-ID>
 
         ```  
+ ### If you already have a running container ### 
    
    
    
