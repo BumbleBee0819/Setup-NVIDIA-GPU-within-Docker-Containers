@@ -177,6 +177,18 @@
         $ nvidia-smi
 
         ```
+        
+## 6. Common errors ##  
+   - 1. (Graphviz error) FileNotFoundError: [Errno 2] "dot" not found in path.
+        ```bash
+        $ sudo add-apt-repository universe
+        $ sudo apt update
+        $ sudo apt install graphviz
+
+        ```  
+   
+   
+   
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
    
