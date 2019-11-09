@@ -188,7 +188,7 @@
         ```  
    - 2). If the GPU can't be recognized, double check that you run the docker with "nvidia-docker run" rather than "docker run".
    - 3). Setup File Zilla for file transfer:
-         Site Manager -> New site -> set the following 1) In protocol, Select "SFTP"; 2)HOST: [172.25.250.112]; 3) Port: [60222]; 4) User: [wbi]
+         Site Manager -> New site -> set the following: In protocol, Select "SFTP"; HOST: [172.25.250.112]; Port: [60222]; User: [wbi]
    
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
