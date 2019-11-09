@@ -170,6 +170,11 @@
         ```   
    - 3. Exit the container        
          Ctrl+p+q
+   - 4. Check the GPU usage in the base root      
+        ```bash
+        $ nvidia-smi
+
+        ```
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
    
