@@ -82,7 +82,7 @@
 
 
 ## 4. Create the container and make changes inside it ## 
-   - 1). To run the container in the interactive mode
+   - 1). Run the container in the interactive mode
         ```bash
         $ nvidia-docker run -it -v <local_dir>:<container_dir> <image repository>:<image tag> bash
     
